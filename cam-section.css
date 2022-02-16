@@ -4,7 +4,6 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    /* border: 2px solid white; */
     overflow: hidden;
     background-color: white;
     color: #f2f2f2;
@@ -16,12 +15,10 @@
     background-position: center;
 }
 .cam-heading{
-    /* padding: 30rem; */
     position: relative;
     color: black;
     left: 0;
     font-size: 4rem;
-    /* border: 2px solid black; */
     text-align: left;
     max-width: 40%;
     font-weight: 800;
@@ -41,7 +38,6 @@
 .gallery-section{
     height: 280vh;
     width: 100%;
-    /* border: 1px solid black; */
     background-color: #fff;
     overflow: hidden;
 }
@@ -49,7 +45,6 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(4,1fr);
-    /* border: 2px solid black; */
     grid-auto-rows:minmax(80vh, auto);
     background-color: white;
     grid-gap: 2rem;
@@ -100,7 +95,6 @@
         color: black;
         left: 0;
         font-size: 2.5rem;
-        /* border: 2px solid black; */
         text-align: left;
         max-width: 20%;
         font-weight: 800;
@@ -119,7 +113,6 @@
     .gallery-section{
         height: 200vh;
         width: 100%;
-        /* border: 1px solid black; */
         background-color: #fff;
     }
     .gallery-heading{
@@ -132,8 +125,6 @@
         padding-top: 80px;
     }
     .gallery{
-        
-        /* border: 2px solid white; */
         grid-auto-rows:minmax(50vh, auto);
         grid-gap: 1rem;
     }

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 .battery-section{
     display: grid;
-    /* border: 2px solid white; */
     overflow: auto;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(400px,auto);
@@ -10,17 +9,12 @@
 }
 .battery-section2{
     display: grid;
-    /* border: 2px solid white; */
     overflow: auto;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(400px,auto);
     color: #f2f2f2;
     height: 150vh;
 }
-/* .battery-container2{
-    display: flex;
-    justify-content: center;
-} */
 .battery-image{
     background-image: url(image/battery.jpg);
     background-repeat: no-repeat;
@@ -34,7 +28,6 @@
     background-position: center;
 }
 .battery-heading {
-    /* border: 2px solid white; */
     font-size: 4rem;
     line-height: 4rem;
     height: 20%;
@@ -43,11 +36,9 @@
 #head5000{
     font-size: 5rem;
     font-weight: 1000;
-    /* border: 2px solid white; */
     padding: 20px 0 0 0;
 }
 .battery-content{
-    /* border: 2px solid white; */
     font-size: 1.4rem;
     line-height: 1.4rem;
     min-height: 20%;
@@ -58,7 +49,6 @@
 {
     .battery-section{
         display: grid;
-        /* border: 2px solid white; */
         overflow: auto;
         grid-template-columns: 1fr;
         grid-auto-rows: minmax(400px,auto);
@@ -68,7 +58,6 @@
     }
     .battery-section2{
         display: grid;
-        /* border: 2px solid white; */
         overflow: auto;
         grid-template-columns: 1fr;
         color: #f2f2f2;
@@ -84,11 +73,9 @@
         margin-top: 4rem;
         font-size: 2rem;
         font-weight: 1000;
-        /* border: 2px solid white; */
         padding: 20px 0 0 0;
     }
     .battery-content{
-        /* border: 2px solid white; */
         font-size: 1.1rem;
         line-height: 1.1rem;
         min-height: 10%;

@@ -3,34 +3,25 @@ body,html{
     margin: 0;
     line-height: 180%;
     color: #666;
-    /* text-align: center; */
 }
 .parallax1{
     background: url(image/dark.jpg);
     min-height: 60%;
 }
 .parallax2{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     background: url(image/processor-media-tek.jpg);
     min-height: 40%;
 }
-/* .parallax3{
-    background: url(image/rainbow-banner.jpg);
-    min-height: 20%;
-}
-.parallax4{
-    background: url(image/4.jpg);
-    min-height: 100%;
-} */
 .parallax1, .parallax2, .parallax3, .parallax4{
     position: relative;
-    /* opacity: .75; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.heading{
+    
+    line-height: 450%;
 }
 .heading .hash-tag{
     position: absolute;
@@ -44,7 +35,6 @@ body,html{
     width: 100%;
     padding: 30px 0;
     text-align: center;
-    /* border: 2px solid white; */
     text-transform: uppercase;
     letter-spacing: 8px;
     text-shadow: 0 0 10px #000;
@@ -55,28 +45,19 @@ body,html{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* padding: 30px; */
-    /* top: 45%; */
     width: 100%;
     height: 100%;
     color: #fff;
     font-weight: 1000;
-    /* font-size: 3em; */
     line-height: 10px;
-    /* text-transform: uppercase; */
     letter-spacing: 5px;
     text-shadow: 0 0 1px #000;
     text-align: center;
-    /* border: 2px solid white; */
 }
 .heading-sm h1{
     margin: 10px;
     font-size: 3em;
 }
-/* .heading-sm p{
-    border: 2px solid white;
-    height: 100%;
-} */
 .two-col{
     float: left;
     width: 42%;
@@ -91,9 +72,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid white; */
     overflow: auto;
-    /* padding: 50px; */
     background-color: black;
     color: #f2f2f2;
     height: 200px;
@@ -106,10 +85,8 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 2px solid white; */
     overflow: auto;
     height: 250vh;
-    /* padding: 50px; */
     background-color: black;
     color: #f2f2f2;
 }
@@ -141,33 +118,24 @@ section{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3,1fr);
-    /* border: 2px solid white; */
     grid-auto-rows:minmax(380px, auto);
     background: black;
     grid-gap: 1rem;
     margin: 10px;
 }
 .card1{
-    /* border: 2px solid white; */
     grid-column: 1/4;
-    /* grid-row: 1/3; */
     border-radius: 30px;
-    /* display: flex;
-    align-items: center; */
 }
 .card2{
-    /* border: 2px solid white; */
     grid-column: 1/3;
-    /* grid-row: 3/5; */
     border-radius: 30px;
 }
 .card3{
-    /* border: 2px solid white; */
     grid-column: 3/4;
     border-radius: 30px;
 }
 .card4{
-    /* border: 2px solid white; */
     border-radius: 30px;
     grid-column: 1/4;
 }
@@ -178,7 +146,6 @@ section{
     background-image: url(image/processor.png);
     background-size: cover;
     width: 100%;
-    /* padding-top: 33%; */
 }
 .image2{
     background-image: url(image/coool-design.png);
@@ -203,7 +170,6 @@ section{
     height: 50%;
     line-height: 50px;
     text-align: left;
-    /* border: 2px solid white; */
 }
 .dark2 .earth5g .text5g{
     position: relative;
@@ -216,20 +182,15 @@ section{
     height: 50%;
     line-height: 4rem;
     text-align: left;
-    /* border: 2px solid white; */
 }
 .dark2 .earth5g .text5g p{
     font-size: 1.3rem;
     line-height: 1.8rem;
     margin-top: 10px;
 }
-/* #text4{
-    font-size: 3.5em;
-} */
 .text p {
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid #fff; */
     font-size: 0.6em;
 }
 /* -----------------Media Queries------------- */
@@ -246,7 +207,6 @@ section{
     }
     .parallax1{
         position: relative;
-        /* opacity: .75; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -254,12 +214,14 @@ section{
     }
     .parallax2{
         position: relative;
-        /* opacity: .75; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         padding-top: 56%;
+    }
+    .heading{
+        line-height: 250%;
     }
     .heading .hash-tag{
         font-size: 250%;
@@ -273,21 +235,16 @@ section{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        /* padding: 30px; */
         top: 0;
         width: 100%;
         height: 100%;
         color: #fff;
         font-weight: 800;
-        /* font-size: 3em; */
         line-height: 2em;
-        /* text-transform: uppercase; */
         letter-spacing: 5px;
         text-shadow: 0 0 1px #000;
-        /* border: 2px solid white; */
     }
     .heading-sm h1{
-        /* border: 2px solid white; */
         margin: 10px;
         font-size: 1.5em;
     }
@@ -297,7 +254,7 @@ section{
         text-align: center;
     }
     .feature-section{
-        height: 200vh;
+        height: 220vh;
     }
     .grid-container{
         width: 95%;
@@ -306,27 +263,19 @@ section{
         grid-auto-rows:minmax(280px, auto);
     }
     .card1{
-        /* border: 2px solid white; */
         grid-column: 1/4;
-        /* grid-row: 1/3; */
         border-radius: 30px;
     }
     .card2{
-        /* border: 2px solid white; */
         grid-column: 1/4;
-        /* grid-row: 1/3; */
         border-radius: 30px;
     }
     .card3{
-        /* border: 2px solid white; */
         grid-column: 1/4;
-        /* grid-row: 1/3; */
         border-radius: 30px;
     }
     .card4{
-        /* border: 2px solid white; */
         grid-column: 1/4;
-        /* grid-row: 1/3; */
         border-radius: 30px;
     }
     .card1, .card2, .card3, .card4{
@@ -337,7 +286,6 @@ section{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        /* padding-top: 33%; */
         padding-top: 30%;
     }
     .image2{
@@ -372,33 +320,24 @@ section{
         font-size: 1.1rem;
         font-weight: 800;
         top: -36%;
-        /* left: 30px; */
         width: 80%;
         line-height: 1.6;
         text-align: left;
-        /* border: 2px solid white; */
     }
     .text p{
-        /* border: 2px solid white; */
         font-size: 0.85em;
     }
-    /* #text4{
-        font-size: 1.4em;
-    } */
     .dark2{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        /* border: 2px solid white; */
         overflow: auto;
         height: 100vh;
-        /* padding: 50px; */
         background-color: black;
         color: #f2f2f2;
     }
     .dark2 .five5g, .dark2 .earth5g{
-        /* border: 2px solid white; */
         height: 50%;
         width: 90%;
         margin: 1rem;
@@ -416,7 +355,6 @@ section{
         height: 50%;
         line-height: 50px;
         text-align: left;
-        /* border: 2px solid white; */
     }
     .dark2 .earth5g .text5g p{
         font-size: 0.8rem;

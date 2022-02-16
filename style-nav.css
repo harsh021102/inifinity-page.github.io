@@ -91,18 +91,13 @@ header.sticky .logo, header.sticky ul li a{
         position: relative;
         display: none;
         text-align: center;
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* gap: 1rem; */
     }
     header .specs{
         position: relative;
         display: flex;
         justify-content: space-between;
         gap: 1rem;
-        /* flex-direction: column; */
         align-items: center;
-        /* border: 1px solid black; */
     }
     header .specs li{
         position: relative;
@@ -110,7 +105,6 @@ header.sticky .logo, header.sticky ul li a{
         font-weight: 1000;
         border: 1px solid black; 
         border-radius: 35px;
-        /* background-color: black; */
     }
     header .specs li a{
         position: relative;
