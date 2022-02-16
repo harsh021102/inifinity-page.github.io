@@ -76,9 +76,7 @@ section{
     background-color: black;
     color: #f2f2f2;
     height: 200px;
-}
-.dark1 h3{
-    font-size: 3em;
+    text-align: center;
 }
 .dark2{
     display: flex;
