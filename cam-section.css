@@ -1,0 +1,167 @@
+/* ----------------camera section------------- */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.camera-section{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    overflow: hidden;
+    background-color: white;
+    color: #f2f2f2;
+    height: 150vh;
+}
+.cam-section-img{
+    background-image: url(image/camera-back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cam-heading{
+    /* padding: 30rem; */
+    position: relative;
+    color: black;
+    left: 0;
+    font-size: 4rem;
+    /* border: 2px solid black; */
+    text-align: left;
+    max-width: 40%;
+    font-weight: 800;
+    line-height: 4rem;
+    font-family: 'Outfit', sans-serif;
+    padding: 2rem 0;
+    max-width: 60%;
+}
+.cam-heading ul li{
+    font-size: 2rem
+}
+.cam-heading ul li p{
+    color: gray; 
+    font-size: 1.2rem;
+}
+/* -------------gallery--------------- */
+.gallery-section{
+    height: 280vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    overflow: hidden;
+}
+.gallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 2px solid black; */
+    grid-auto-rows:minmax(80vh, auto);
+    background-color: white;
+    grid-gap: 2rem;
+}
+.gallery-heading{
+    font-size: 4rem;
+    color: black;
+    text-align: left;
+    font-weight: 800;
+    line-height: 4rem;
+    grid-column: 1/4;
+}
+.gallery-img1{
+    grid-column: 1/4;
+    border-radius: 35px;
+}
+.gallery-img2{
+    grid-column: 2/5;
+    border-radius: 35px;
+}
+.gallery-img3{
+    grid-column: 1/4;
+    border-radius: 35px;
+}
+.g1{
+    background-image: url(image/gal1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.g2{
+    background-image: url(image/gal2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.g3{
+    background-image: url(image/gal3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* ------------media query---------- */
+@media (max-width: 768px)
+{
+    .camera-section{
+        height: 120vh;
+    }
+    .cam-heading{
+        position: relative;
+        color: black;
+        left: 0;
+        font-size: 2.5rem;
+        /* border: 2px solid black; */
+        text-align: left;
+        max-width: 20%;
+        font-weight: 800;
+        line-height: 2.5rem;
+        font-family: 'Outfit', sans-serif;
+        padding: 2rem 0;
+        max-width: 80%;
+    }
+    .cam-heading ul li{
+        font-size: 1.5rem
+    }
+    .cam-heading ul li p{
+        color: rgb(43, 42, 42); 
+        font-size: 1rem;
+    }
+    .gallery-section{
+        height: 200vh;
+        width: 100%;
+        /* border: 1px solid black; */
+        background-color: #fff;
+    }
+    .gallery-heading{
+        font-size: 3.5rem;
+        color: black;
+        text-align: left;
+        font-weight: 800;
+        line-height: 3.5rem;
+        grid-column: 1/4;
+        padding-top: 80px;
+    }
+    .gallery{
+        
+        /* border: 2px solid white; */
+        grid-auto-rows:minmax(50vh, auto);
+        grid-gap: 1rem;
+    }
+    .gallery-img1{
+        grid-column: 1/5;
+        border-radius: 35px;
+    }
+    .gallery-img2{
+        grid-column: 1/5;
+        border-radius: 35px;
+    }
+    .gallery-img3{
+        grid-column: 1/5;
+        border-radius: 35px;
+    }
+    .g1{
+        background-image: url(image/gal1-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .g2{
+        background-image: url(image/gal2-mobile.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+    .g3{
+        background-image: url(image/gal3-mobile.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+}

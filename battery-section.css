@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.battery-section{
+    display: grid;
+    /* border: 2px solid white; */
+    overflow: auto;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(400px,auto);
+    color: #f2f2f2;
+    height: 150vh;
+}
+.battery-section2{
+    display: grid;
+    /* border: 2px solid white; */
+    overflow: auto;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(400px,auto);
+    color: #f2f2f2;
+    height: 150vh;
+}
+/* .battery-container2{
+    display: flex;
+    justify-content: center;
+} */
+.battery-image{
+    background-image: url(image/battery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.battery-image2{
+    background-image: url(image/battery-5000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.battery-heading {
+    /* border: 2px solid white; */
+    font-size: 4rem;
+    line-height: 4rem;
+    height: 20%;
+    text-align: center;
+}
+#head5000{
+    font-size: 5rem;
+    font-weight: 1000;
+    /* border: 2px solid white; */
+    padding: 20px 0 0 0;
+}
+.battery-content{
+    /* border: 2px solid white; */
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    min-height: 20%;
+    text-align: center;
+}
+/* ----------------media query-------------- */
+@media (max-width: 768px)
+{
+    .battery-section{
+        display: grid;
+        /* border: 2px solid white; */
+        overflow: auto;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(400px,auto);
+        color: #f2f2f2;
+        grid-gap: 2rem;
+        height: 100vh;
+    }
+    .battery-section2{
+        display: grid;
+        /* border: 2px solid white; */
+        overflow: auto;
+        grid-template-columns: 1fr;
+        color: #f2f2f2;
+        height: 70vh;
+    }
+    .battery-heading{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-top: 10px;
+        height: 20%;
+    }
+    #head5000{
+        margin-top: 4rem;
+        font-size: 2rem;
+        font-weight: 1000;
+        /* border: 2px solid white; */
+        padding: 20px 0 0 0;
+    }
+    .battery-content{
+        /* border: 2px solid white; */
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        min-height: 10%;
+    }
+    .battery-image{
+        background-image: url(image/battery-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .battery-image2{
+        background-image: url(image/battery-5000.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
